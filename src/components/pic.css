@@ -1,0 +1,17 @@
+.logoContainer {
+    width: 21rem;
+    height: 23.938rem;
+    border-radius: 1.25rem;
+    border: 0.063rem solid #000;
+    position: relative;
+    overflow: hidden;
+    margin-left: 38px;
+
+}
+.logo {
+    width: 16.875rem;
+    height: 16.813rem;
+    position: absolute;
+    left: 4.124rem;
+    top: 7.124rem;
+}

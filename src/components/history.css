@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../img/Inter-Regular.ttf);
+    font-style: normal;
+}
+
+.historyBut{
+    display: flex;
+    width: 296px;
+    height: 63.65px;
+    padding: 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    background: #FFF;
+    color: #000;
+    font-family: "Inter",sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -1.5px;
+    position: absolute;
+    margin-top: 283px;
+    margin-left: 20px;
+
+}
+
+.historyBut:hover {
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    background: #000;
+    color: #FFF;
+}
+.historyBut:hover svg path {
+    stroke: white;
+}
+.butArrow{
+    width: 28px;
+    height: 28px;
+}

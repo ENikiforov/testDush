@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../img/Inter-Regular.ttf);
+    font-style: normal;
+    font-weight: 300;
+}
+
+.cards-container {
+    display: flex;
+    margin-top: 40px;
+}
+
+.cards {
+    width: 336px;
+    height: 383px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #000;
+}
+
+
+
+.historyText{
+    width: 296px;
+    height: 104px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Inter",sans-serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+    letter-spacing: -3.3px;
+    position: absolute;
+    margin-top: 54.87px;
+    margin-left: 20px;
+}
+
