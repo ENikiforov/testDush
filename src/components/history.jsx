@@ -1,11 +1,11 @@
 import React from "react";
 import './history.css';
 
-const History =()=>{
+const History = () => {
     return (
         <div>
             <button className='historyBut'>
-                    История
+                История
                 <div className='butArrow'>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -26,6 +26,6 @@ const History =()=>{
             </button>
 
         </div>
-        )
+    )
 }
 export default History

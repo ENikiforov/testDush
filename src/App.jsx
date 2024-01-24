@@ -6,18 +6,18 @@ import LeftCards from "./components/leftCards";
 
 
 function App() {
-  return (
-      <div className='containerApp'>
-          <h1 className='headText'>ДУШНИЛА</h1>
-          <div className='body'>
-              <div>
-                  <Text/>
-                  <LeftCards/>
-              </div>
-              <Temperature/>
-          </div>
-      </div>
-  );
+    return (
+        <div className='containerApp'>
+            <h1 className='headText'>ДУШНИЛА</h1>
+            <div className='body'>
+                <div>
+                    <Text/>
+                    <LeftCards/>
+                </div>
+                <Temperature/>
+            </div>
+        </div>
+    );
 }
 
 export default App;
